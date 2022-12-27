@@ -14,6 +14,7 @@
 		739E3E5928DDEB2F0022BB60 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E3E5828DDEB2F0022BB60 /* NetworkManager.swift */; };
 		739E3E5B28DDEE240022BB60 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E3E5A28DDEE240022BB60 /* PostData.swift */; };
 		739E3E5E28DE02710022BB60 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E3E5D28DE02710022BB60 /* DetailView.swift */; };
+		73B640A828E1EFD3006F0884 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B640A728E1EFD3006F0884 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		739E3E5828DDEB2F0022BB60 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		739E3E5A28DDEE240022BB60 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		739E3E5D28DE02710022BB60 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		73B640A728E1EFD3006F0884 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		73B640A928E1F316006F0884 /* H4x0r News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4x0r News.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		739E3E4828DDE22C0022BB60 /* H4x0r News */ = {
 			isa = PBXGroup;
 			children = (
+				73B640A928E1F316006F0884 /* H4x0r News.entitlements */,
 				739E3E4928DDE22D0022BB60 /* H4x0r_NewsApp.swift */,
 				739E3E5728DDEB150022BB60 /* Models */,
 				739E3E5C28DE02310022BB60 /* Views */,
@@ -88,6 +92,7 @@
 			children = (
 				739E3E4B28DDE22D0022BB60 /* ContentView.swift */,
 				739E3E5D28DE02710022BB60 /* DetailView.swift */,
+				73B640A728E1EFD3006F0884 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				739E3E5928DDEB2F0022BB60 /* NetworkManager.swift in Sources */,
 				739E3E5B28DDEE240022BB60 /* PostData.swift in Sources */,
 				739E3E4C28DDE22D0022BB60 /* ContentView.swift in Sources */,
+				73B640A828E1EFD3006F0884 /* WebView.swift in Sources */,
 				739E3E5E28DE02710022BB60 /* DetailView.swift in Sources */,
 				739E3E4A28DDE22D0022BB60 /* H4x0r_NewsApp.swift in Sources */,
 			);
@@ -292,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4x0r News/H4x0r News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"H4x0r News/Preview Content\"";
@@ -310,6 +317,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniacs.H4x0r-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4x0r News/H4x0r News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"H4x0r News/Preview Content\"";
@@ -339,6 +348,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.elaniacs.H4x0r-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
